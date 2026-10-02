@@ -1,0 +1,166 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    grid-row: 1 / -1;
+    width: max(200px, 20vw);
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.sidebar-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: rem;
+}
+
+.sidebar-section > a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.header {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main {
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+    display: grid;
+    grid-template-columns: 2.5fr minmax(265px, 1fr);
+    gap: 1.5rem;
+    max-height: 100vh;
+}
+
+#dash-img {
+    width: max(15px, 2rem);
+}
+
+.buttons {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.profile-button {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.profile-button > img {
+    width: min(50px, 5vw);
+    place-self: center;
+}
+
+.greeting {
+    grid-template-columns: 1fr auto auto 1fr;
+}
+
+.profile-small {
+    width: clamp(20px, 4vw, 50px);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow: auto;
+}
+
+.project-title {
+    grid-column: 1 / -1;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr auto 20px;
+    padding-right: 10px;
+    border-left: solid 10px orange;
+    padding-left: 10px;
+    height: min(242px, 20vh);
+}
+
+.project-icons {
+    grid-row-start: -3;
+    display: flex;
+    justify-content: flex-end;
+    gap: max(15px, 3vw);
+    padding-right: 10px;
+}
+
+.main-project {
+    grid-row-start: 1;
+    padding-left: min(10px, 5vw);
+    padding-top: min(40px, 5vw);
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    overflow: hidden;
+    padding-bottom: 0.5rem;
+}
+
+.main-project-content {
+    overflow: hidden;
+}
+
+
+.main-sidebar {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.trending-card {
+    display: grid;
+    height: min(320px, 90%);
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.announce-card {
+    height: min(320px, 90%);
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    overflow: hidden;
+}
+
+.announce-text {
+    overflow: hidden;
+}
+
+.announcement {
+    display: grid;
+    border-bottom: 1px solid grey;
+    gap: 0;
+}

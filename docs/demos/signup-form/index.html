@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNSC Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Industry/stylesheet.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="side-panel">
+        <div class="form-title">
+            <h1 class="title-words">United Nations Space Command</h1>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="form-header">The covenant is at our doorstep. They've glassed our planets and want to eradicate humans from the universe. The The discovery of the Halo rings has finally turned the tide of the war. Now we need you.<br><br>It's time to finish the fight.</div>
+        <form action="" method="post" id="sign-up">
+            <h4>Sign up here</h4>
+            <div class="input">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+
+            <div class="input">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="input">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="error">
+                <p class="error-msg">* Password fields empty or do not match</p>
+            </div>
+
+            <div class="input">
+                <label for="pass-confirm">Confirm Password</label>
+                <input type="password" name="pass-confirm" id="pass-confirm" class="error">
+            </div>
+        </form>
+        <div class="form-footer">
+            <button type="submit" form="sign-up" id="sub-button">Create Account</button>
+            <p>Already have an account? <a href='#' id="login">Log in</a></p>
+        </div>
+    </div>
+
+
+</body>
+</html>

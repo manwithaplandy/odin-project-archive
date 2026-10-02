@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Light.eot');
+    src: local('Industry Light'), local('Industry-Light'),
+        url('Industry-Light.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Light.woff') format('woff'),
+        url('Industry-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Bold.eot');
+    src: local('Industry Bold'), local('Industry-Bold'),
+        url('Industry-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Bold.woff') format('woff'),
+        url('Industry-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-BoldItalic.eot');
+    src: local('Industry Bold Italic'), local('Industry-BoldItalic'),
+        url('Industry-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-BoldItalic.woff') format('woff'),
+        url('Industry-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-LightItalic.eot');
+    src: local('Industry Light Italic'), local('Industry-LightItalic'),
+        url('Industry-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-LightItalic.woff') format('woff'),
+        url('Industry-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Book';
+    src: url('Industry-Book.eot');
+    src: local('Industry Book'), local('Industry-Book'),
+        url('Industry-Book.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Book.woff') format('woff'),
+        url('Industry-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-BlackItalic.eot');
+    src: local('Industry Black Italic'), local('Industry-BlackItalic'),
+        url('Industry-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-BlackItalic.woff') format('woff'),
+        url('Industry-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-BookItalic';
+    src: url('Industry-BookItalic.eot');
+    src: local('Industry Book Italic'), local('Industry-BookItalic'),
+        url('Industry-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-BookItalic.woff') format('woff'),
+        url('Industry-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-DemiItalic';
+    src: url('Industry-DemiItalic.eot');
+    src: local('Industry Demi Italic'), local('Industry-DemiItalic'),
+        url('Industry-DemiItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-DemiItalic.woff') format('woff'),
+        url('Industry-DemiItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Black.eot');
+    src: local('Industry Black'), local('Industry-Black'),
+        url('Industry-Black.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Black.woff') format('woff'),
+        url('Industry-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-Medium.eot');
+    src: local('Industry Medium'), local('Industry-Medium'),
+        url('Industry-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Medium.woff') format('woff'),
+        url('Industry-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry';
+    src: url('Industry-MediumItalic.eot');
+    src: local('Industry Medium Italic'), local('Industry-MediumItalic'),
+        url('Industry-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Industry-MediumItalic.woff') format('woff'),
+        url('Industry-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Demi';
+    src: url('Industry-Demi.eot');
+    src: local('Industry Demi'), local('Industry-Demi'),
+        url('Industry-Demi.eot?#iefix') format('embedded-opentype'),
+        url('Industry-Demi.woff') format('woff'),
+        url('Industry-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-background: rgba(211, 211, 211, 0.35);
+}
+body {
+    display: flex;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    min-width: 35vw;
+    height: 100vh;
+    background-image: url("sidepanel.jpg");
+    background-color: cyan;
+    background-size: 100vh;
+}
+
+.form-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 25vh;
+}
+
+.title-words {
+    font-family: 'Industry', sans-serif;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3.5vw;
+    text-align: center;
+    transform: scale(1,1.5);
+    color:white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    background-color: var(--main-background);
+    flex: auto;
+}
+
+#sign-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: sans-serif;
+    padding-top: 1rem;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.25);
+    column-gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+form>h4 {
+    grid-column: span 2;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    gap: 0.2rem;
+}
+
+input {
+    min-height: 2rem;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border-width: 0.7px;
+    border-color: rgba(211, 211, 211, 0.521);
+    box-shadow: none;
+}
+
+input:focus {
+    outline: solid blue;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.25);
+}
+
+.error {
+    outline: solid red;
+}
+
+.error-msg {
+    color: red;
+    font-size: 0.8rem;
+    letter-spacing: normal;
+}
+
+#sub-button {
+    box-sizing: border-box;
+    background: #596D48;
+    border-radius: 8px;
+    min-width: 13rem;
+    min-height: 4rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.form-footer {
+    background-color: var(--main-background);
+    min-height: 30vh;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    flex: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}

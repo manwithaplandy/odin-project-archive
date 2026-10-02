@@ -1,0 +1,6 @@
+{
+  "name": "odin-archive-showcase",
+  "private": true,
+  "scripts": { "build": "node build.mjs", "test": "python3 verify.py" },
+  "devDependencies": { "esbuild": "0.25.12", "react": "18.2.0", "react-dom": "18.2.0" }
+}

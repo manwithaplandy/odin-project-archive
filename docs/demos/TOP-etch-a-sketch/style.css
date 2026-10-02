@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#startButton {
+    margin-bottom: 5vh;
+}
+
+#clearButton {
+    margin-top: 5vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 50vh;
+    height: 50vh;
+    place-items: stretch;
+    text-align: center;
+    outline: 1px solid black;
+}
+
+.hoverOver {
+    background-color: green;
+}
+
+.square {
+    transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}

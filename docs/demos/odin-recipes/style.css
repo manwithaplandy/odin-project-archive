@@ -1,0 +1,44 @@
+* {
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+#mainbox {
+    border: solid black 2px;
+    position: relative;
+    left: 100px;
+    right: 100px;
+    width: 600px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: crimson;
+    font-size: 65px;
+    margin: 40px;
+}
+
+.recipe {
+    padding: 5px;
+    text-align: center;
+}
+
+.list {
+    box-sizing: border-box;
+    height: 160px;
+    width: 370px;
+    border: 2px solid rgba(250, 128, 114, 0.37);
+    position: relative;
+    margin-left: 115px;
+    list-style-type: disc;
+    list-style-position: inside;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.267),rgba(0, 128, 0, 0.226),rgba(0, 0, 255, 0.192));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.listitem {
+    position: relative;
+    left: 20px;
+    padding: 10px;
+}

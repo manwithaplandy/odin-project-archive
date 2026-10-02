@@ -6,6 +6,12 @@ I created this archive to keep that early work in one place, preserve the origin
 
 If you're browsing my GitHub, this is a record of my learning journey. Each project lives in its own folder, with its original source files and any existing README. Use the index below to explore the projects, or the preserved history branches to see how the code evolved.
 
+## Explore the projects
+
+**[Visit the project showcase →](https://manwithaplandy.github.io/odin-project-archive/)**
+
+Browse previews of all 12 projects and exercise collections, try 11 browser demos, and follow links to the original source code. The gallery is hosted on GitHub Pages and introduces what I was learning with each project.
+
 ## Projects
 
 Each folder contains the unchanged files from that project's default branch at the time of import.
@@ -39,3 +45,17 @@ git show origin/history/TOP-calculator/main:README.md
 `archive-manifest.json` records the original repository URLs, default-branch commits, and branch/tag references so the import can be verified.
 
 This archive preserves source files and Git history. Issues, pull requests, repository settings, and GitHub Pages deployments remain associated with the original repositories. Each project's existing license and attribution files remain in its folder; this archive does not replace those licenses.
+
+## About the showcase
+
+The gallery lives in `showcase/`. Its build copies the browser-ready projects and compiles the React to-do demo into `docs/`, keeping the archived project folders unchanged. GitHub Pages publishes the generated `docs/` folder from `main`. The `history/` branches preserve original project branches; they are not pending work or deployment branches.
+
+To build and verify it locally:
+
+```sh
+npm ci --prefix showcase
+npm run build --prefix showcase
+python3 showcase/verify.py
+```
+
+After changing the gallery, rebuild and verify it, then commit the updated `showcase/` and `docs/` files. GitHub Pages publishes the update automatically.
