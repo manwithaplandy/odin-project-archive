@@ -1,0 +1,7 @@
+.main {
+    grid-template-rows: 10% 1fr 1fr 15%;
+}
+
+#scoreboard {
+    grid-template-rows: 70% 30%;
+}
