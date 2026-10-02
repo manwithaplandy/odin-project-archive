@@ -1,6 +1,10 @@
 # The Odin Project Archive
 
-A collection of my projects from learning web development with [The Odin Project](https://www.theodinproject.com/). Kept here so I can look back at the code and see how I learned.
+This repository brings together 12 projects and exercise collections I worked on while learning web development through [The Odin Project](https://www.theodinproject.com/).
+
+I created this archive to keep that early work in one place, preserve the original commit history, and make it easy to revisit how I learned. The projects capture different stages of that process, from basic HTML and CSS to JavaScript, TypeScript, React, and tools such as npm and Webpack.
+
+If you're browsing my GitHub, this is a record of my learning journey. Each project lives in its own folder, with its original source files and any existing README. Use the index below to explore the projects, or the preserved history branches to see how the code evolved.
 
 ## Projects
 
