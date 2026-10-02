@@ -1,0 +1,198 @@
+[
+  {
+    "name": "odin-recipes",
+    "html_url": "https://github.com/manwithaplandy/odin-recipes",
+    "description": "Recipes website from The Odin Project's Fundamentals course",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "359835fe52379b518e0cf97b56bc5ab57046cdae",
+    "source_refs": {
+      "refs/heads/main": "359835fe52379b518e0cf97b56bc5ab57046cdae"
+    }
+  },
+  {
+    "name": "TOP-Landing-Page",
+    "html_url": "https://github.com/manwithaplandy/TOP-Landing-Page",
+    "description": "Landing Page project in The Odin Project fundamentals course",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "71c9dcc2c2efa8458ec1ca510c8b110abbf10968",
+    "source_refs": {
+      "refs/heads/main": "71c9dcc2c2efa8458ec1ca510c8b110abbf10968"
+    }
+  },
+  {
+    "name": "TOP-rock-paper-scissors",
+    "html_url": "https://github.com/manwithaplandy/TOP-rock-paper-scissors",
+    "description": "rock-paper-scissors JavaScript challenge on The Odin Project",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "6deb3386ba2ad9074564386c5cdc4711ed9618c9",
+    "source_refs": {
+      "refs/heads/main": "6deb3386ba2ad9074564386c5cdc4711ed9618c9"
+    }
+  },
+  {
+    "name": "TOP-etch-a-sketch",
+    "html_url": "https://github.com/manwithaplandy/TOP-etch-a-sketch",
+    "description": "DOM Manipulation project ",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "d9564bbd3d99810d7dd94cd6c7bd81288af5ff33",
+    "source_refs": {
+      "refs/heads/main": "d9564bbd3d99810d7dd94cd6c7bd81288af5ff33"
+    }
+  },
+  {
+    "name": "TOP-calculator",
+    "html_url": "https://github.com/manwithaplandy/TOP-calculator",
+    "description": "Final project of TOP Fundamentals course",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "603101526cddd46ef79376484f58bcba23469949",
+    "source_refs": {
+      "refs/heads/main": "603101526cddd46ef79376484f58bcba23469949"
+    }
+  },
+  {
+    "name": "signup-form",
+    "html_url": "https://github.com/manwithaplandy/signup-form",
+    "description": "TOP form project",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "8320cf196ec4ffcf00101ef0d3adc6435839989d",
+    "source_refs": {
+      "refs/heads/Bootstrap": "13a439447c6ed0e6b27c151f70270011cee9ed29",
+      "refs/heads/main": "8320cf196ec4ffcf00101ef0d3adc6435839989d"
+    }
+  },
+  {
+    "name": "TOP-admin-dashboard",
+    "html_url": "https://github.com/manwithaplandy/TOP-admin-dashboard",
+    "description": null,
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "c3c4c6a0e28c7c9d55c6eb09dafc76a5e4b19f0e",
+    "source_refs": {
+      "refs/heads/main": "c3c4c6a0e28c7c9d55c6eb09dafc76a5e4b19f0e"
+    }
+  },
+  {
+    "name": "TOP-tictactoe",
+    "html_url": "https://github.com/manwithaplandy/TOP-tictactoe",
+    "description": "Tic-tac-toe game from The Odin Project",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "f073517b730d9b3d2df63bab9e00d038a270efaa",
+    "source_refs": {
+      "refs/heads/main": "f073517b730d9b3d2df63bab9e00d038a270efaa"
+    }
+  },
+  {
+    "name": "TOP-restaurant-page",
+    "html_url": "https://github.com/manwithaplandy/TOP-restaurant-page",
+    "description": "Using NPM and Webpack for The Odin Project",
+    "default_branch": "main",
+    "private": false,
+    "archived": true,
+    "fork": false,
+    "homepage": null,
+    "has_pages": true,
+    "source_commit": "a5dd07aaf7c88897d29605f597c5f9dbbcef39a1",
+    "source_refs": {
+      "refs/heads/gh-pages": "0aadb548cdc4ea23df8c5570c17e05f75a60a7f9",
+      "refs/heads/main": "a5dd07aaf7c88897d29605f597c5f9dbbcef39a1"
+    }
+  },
+  {
+    "name": "TOP-todo",
+    "html_url": "https://github.com/manwithaplandy/TOP-todo",
+    "description": "To-do list from TOP",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": false,
+    "source_commit": "6499e94de11cddaee24473f679541bd4b67ee67f",
+    "source_refs": {
+      "refs/heads/main": "6499e94de11cddaee24473f679541bd4b67ee67f"
+    }
+  },
+  {
+    "name": "TOP-Battleship",
+    "html_url": "https://github.com/manwithaplandy/TOP-Battleship",
+    "description": null,
+    "default_branch": "main",
+    "private": true,
+    "archived": false,
+    "fork": false,
+    "homepage": null,
+    "has_pages": false,
+    "source_commit": "5bfeda1e9d5db335b30a9f6e701eed0dcfcec4d6",
+    "source_refs": {
+      "refs/heads/main": "5bfeda1e9d5db335b30a9f6e701eed0dcfcec4d6"
+    }
+  },
+  {
+    "name": "javascript-exercises",
+    "html_url": "https://github.com/manwithaplandy/javascript-exercises",
+    "description": "TOP Javascript exercises",
+    "default_branch": "main",
+    "private": false,
+    "archived": false,
+    "fork": true,
+    "homepage": null,
+    "has_pages": false,
+    "source_commit": "2c33235522d0900b4f51245d018bc17ed4363f8b",
+    "source_refs": {
+      "refs/heads/I3uckwheat-patch-1": "e0a011997902630cf460169e73efbb6e24294e17",
+      "refs/heads/I3uckwheat-patch-2": "6e02f72a72b048464f1a40e45b63cbfdd1811290",
+      "refs/heads/dependabot/npm_and_yarn/generator-exercise/path-parse-1.0.7": "7b8de73af38290052521a9a84448e8565e3f9700",
+      "refs/heads/dependabot/npm_and_yarn/generator-exercise/tmpl-1.0.5": "6e375eea122aa5773ea8f2e4da82139bdb120101",
+      "refs/heads/dependabot/npm_and_yarn/minimist-1.2.6": "ae3742a7904f83a02ede23adf81dfda90adfa6d1",
+      "refs/heads/dependabot/npm_and_yarn/path-parse-1.0.7": "05b6552829fab0d227bb84f3ebdf3a3c0ab5146e",
+      "refs/heads/dependabot/npm_and_yarn/tmpl-1.0.5": "d977628e0a475e963842d9b9dfe18fe8c2724519",
+      "refs/heads/fix/revert-jest": "8272bde6c949d4748abeecc0ad3f92afe23ebe5a",
+      "refs/heads/jest": "14f9b662de006a71c7d6d91e40317c1aa00b1af2",
+      "refs/heads/jest-solutions": "d1c9c98366603e2d1372b84f10d4f34fbe14a169",
+      "refs/heads/main": "2c33235522d0900b4f51245d018bc17ed4363f8b",
+      "refs/heads/solutions": "db998d7279501a619412cbe20658125349e81d07",
+      "refs/heads/thatblindgeye-patch-1": "67d4d0afec84a5a8b886b443999bc6406884f2df",
+      "refs/heads/thatblindgeye-patch-2": "649f0e3771a8173309aded9f9b573e37572b493b",
+      "refs/heads/update-packages": "dd98574efc4701b394f5bf63cfa10cee4b4d7989"
+    }
+  }
+]
