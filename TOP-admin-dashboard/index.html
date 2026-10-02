@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TOP Admin Dashboard</title>
+</head>
+<body>
+    <div class="container font-roboto">
+        <div class="sidebar bg-cyan-500 text-neutral-50">
+            <div class="sidebar-section pt-3 text-2xl 2xl:text-5xl font-bold">
+                <a href="#"><img src="images/view-dashboard.svg" alt="Dashboard" id="dash-img">Dashboard</a>
+            </div>
+            <div class="sidebar-section 2xl:text-3xl">
+                <a href="#" class="hover:underline"><img src="images/home.svg" alt="home">Home</a> 
+
+                <a href="#" class="hover:underline"><img src="images/account-group.svg" alt="Profile"> Profile</a>
+                
+                <a href="#" class="hover:underline"><img src="images/message-reply.svg" alt="Messages">Messages</a>
+                
+                <a href="#" class="hover:underline"><img src="images/clock-outline.svg" alt="History">History</a>
+                
+                <a href="#" class="hover:underline"><img src="images/checkbox-marked-circle-plus-outline.svg" alt="Tasks">Tasks</a>
+                
+                <a href="#" class="hover:underline"><img src="images/account-group.svg" alt="Communities">Communities</a>
+            </div>
+            <div class="sidebar-section 2xl:text-3xl">
+                
+                <a href="#" class="hover:underline"><img src="images/cog.svg" alt="Settings">Settings</a>
+                
+                <a href="#" class="hover:underline"><img src="images/comment-question.svg" alt="Support">Support</a>
+                
+                <a href="#" class="hover:underline"><img src="images/shield-check.svg" alt="Privacy">Privacy</a>
+            </div>
+        </div>
+        <div class="header shadow-lg p-3">
+            <div class="searchbar pr-3 pl-5">
+                <img src="images/magnify.svg" alt="Search">
+                <input type="text" name="searchbar" id="searchbar" placeholder="search" class="rounded-2xl border pl-3 py-1 bg-stone-200">
+            </div>
+            <div class="greeting grid justify-items-center items-center">
+                <a href="#" class="col-start-2"><img src="images/bell-ring-outline.svg" alt="Notifications" class="pr-5"></a>
+                <a href="#"><img src="images/account-cowboy-hat.svg" alt="Profile-small" class="profile-small"></a>
+                <a href="#">ANDY MALVY</a>
+            </div>
+            <div class="profile-button text-sm md:text-lg pl-5 pt-3">
+                <img src="images/account-cowboy-hat.svg" alt="Profile-big">
+                <div class="profile-container pl-3">
+                    <p>Hi there,</p>
+                    <h1>ANDY MALVY (@thagawd)</h1>
+                </div>
+            </div>
+            <div class="buttons pr-5 2xl:text-3xl 2xl:px-12 2xl:py-4">
+                <button class="font-bold rounded-2xl px-6 2xl:px-12 py-1 2xl:py-3 border-2 border-cyan-500 bg-cyan-500 text-cyan-50">New</button>
+                <button class="font-bold rounded-2xl px-6 2xl:px-12 py-1 2xl:py-3 border-2 border-cyan-500 bg-cyan-500 text-cyan-50">Upload</button>
+                <button class="font-bold rounded-2xl px-6 2xl:px-12 py-1 2xl:py-3 border-2 border-cyan-500 bg-cyan-500 text-cyan-50">Share</button>
+            </div>
+        </div>
+        <div class="main px-6 py-10 bg-neutral-200">
+            <div class="projects gap-2">
+                <div class="project-title text-3xl">Your Projects</div>
+                <div class="cards gap-5 2xl:grid-cols-3">
+                    <div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">Secret Death Ray</div>
+                            <div class="main-project-content text-sm pt-1">We believe the giant secret death ray will bring about the new world order we've been waiting for. We just need to figure out how to deal with that platypus...</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div>
+                    <div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">A book...for faces</div>
+                            <div class="main-project-content text-sm pt-1">We have noticed a distinct desire for people to be able to see other people's faces. What is your high school bully up to now? Did Brian from algebra get ugly after he rejected you? Which of the popular girls is part of an MLM? These are questions that need to get answered on our new website.</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div><div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">Fight Club</div>
+                            <div class="main-project-content text-sm pt-1">Normally this is where we would explain what this project is, but unfortunately, we need to abide by rules 1 and 2.</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div><div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">A Trek to the Stars</div>
+                            <div class="main-project-content text-sm pt-1">After centuries of terrestrial exploration, we felt it was time to expand our horizons to the final frontier - space.</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div><div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">Beat the Stock Market!</div>
+                            <div class="main-project-content text-sm pt-1">Trading succesfully can be hard, but we know how you can get rich quick! For a $199 sign up fee, you can be eligible to buy our book for only 6 payments of $59.99. Find out how!</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div><div class="card rounded-xl bg-neutral-50 shadow-lg 2xl:h-4/6">
+                        <div class="main-project">
+                            <div class="main-project-title text-xl font-medium">Bread, but sliced</div>
+                            <div class="main-project-content text-sm pt-1">Making a sandwich can be so frustrating, requiring cutting bread evenly and cleaning all of the dishes afterwards. We think it should be done for you. This will be the best thing since....</div>
+                        </div>
+                        <div class="project-icons">
+                            <a href="#"><img src="images/star-plus-outline.svg" alt="Favorite"></a>
+                            <a href="#"><img src="images/eye-plus-outline.svg" alt="Watch"></a>
+                            <a href="#"><img src="images/source-fork.svg" alt="Fork"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-sidebar">
+                <div class="announcements pb-4">
+                    <p class="announcements-title text-xl pb-2">Announcements</p>
+                    <div class="announce-card bg-neutral-50 rounded-xl p-4 shadow-lg">
+                        <div class="announcement">
+                            <h3 class="announce-title font-bold text-md">Aliens Discovered!</h3>
+                            <div class="announce-text text-sm text-ellipsis">Scientists have found new evidence of alien life. They are small, fuzzy, have four legs and a tail. </div>
+                        </div>
+                        <div class="announcement">
+                            <h3 class="announce-title font-bold text-md">Elon Musk tweets meme</h3>
+                            <div class="announce-text text-sm text-ellipsis">Elon Musk tweeted a meme about kids eating cereal. $K is up 25% in after hours trading, and the SEC has already announced an investigation.</div>
+                        </div>
+                        <div class="announcement">
+                            <h3 class="announce-title font-bold text-md">Study shows he who smelt it, didn't necessarily dealt it</h3>
+                            <div class="announce-text text-sm text-ellipsis">A new study casts into doubt a fact we've all taken for granted for upwards of a century. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h1 class="trending-title text-xl pb-2">Trending</h1>
+                    <div class="trending-card bg-neutral-50 rounded-xl px-4 shadow-lg">
+                        <div class="trend">
+                            <div class="trend-pfp"><img src="images/account-cowboy-hat.svg" alt="Prof pic"></div>
+                            <div class="trend-text">
+                                <div class="trend-handle">@Fwed</div>
+                                <div class="trend-desc">Guy who pissn me off</div>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div class="trend-pfp"><img src="images/account-cowboy-hat.svg" alt="Prof pic"></div>
+                            <div class="trend-text">
+                                <div class="trend-handle">@Deec</div>
+                                <div class="trend-desc">Guy who stonks</div>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div class="trend-pfp"><img src="images/account-cowboy-hat.svg" alt="Prof pic"></div>
+                            <div class="trend-text">
+                                <div class="trend-handle">@Andy</div>
+                                <div class="trend-desc">Guy who most smortest</div>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div class="trend-pfp"><img src="images/account-cowboy-hat.svg" alt="Prof pic"></div>
+                            <div class="trend-text">
+                                <div class="trend-handle">@Jake</div>
+                                <div class="trend-desc">Guy who likes baseball</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
