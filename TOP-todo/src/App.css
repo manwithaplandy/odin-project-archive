@@ -1,0 +1,15 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+  outline: solid black 1px;
+}
+
+.Overview {
+  max-width: 400px;
+}
+
+.App {
+  margin: 200px;
+}
