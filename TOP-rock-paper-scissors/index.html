@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS console game</title>
+</head>
+<body style="display:flex; flex-direction: column; justify-content: center; align-items: center;height:100vh;">
+    <div id="rps-choice">
+        <button id="play">Start Game!</button>
+        <button id="rock" style="display:none">Rock</button>
+        <button id="paper" style="display:none">Paper</button>
+        <button id="scissors" style="display:none">Scissors</button>
+    </div>
+    <div id="scoreBoard" style="display:flex;flex-direction: column;min-width:250px;">
+        <div id="resultsBoard1" style="text-align:center;"></div>
+        <div id="resultsBoard2" style="text-align:center;"></div>
+        <div id="scoreTitles" style="display: flex; justify-content:space-between;font-size: 12px;padding:0 8%;">
+            <div id="playerTitle">Player Score:</div>
+            <div id="computerTitle">Computer Score:</div>
+        </div>
+        <div id="scoreContainers" style="display:flex;justify-content:space-around">
+            <div id="playerScore"></div>
+            <div id="computerScore"></div>
+        </div>
+        <div id="winnerBoard"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
